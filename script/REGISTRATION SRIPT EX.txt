@@ -1,0 +1,53 @@
+function ugpg_percalc(x)
+			{
+				var marks=0;total=0;
+				m=201;
+				for(i=301;i<=308;i++)
+				{
+					
+					if(parseInt(document.getElementById(m).value) > parseInt(document.getElementById(i).value))
+					{
+						alert("Marks can never be greater than total!!");
+						document.getElementById(m).focus();
+						exit;
+					}
+					if(document.getElementById(m).value==''&&document.getElementById(i).value!='')
+					{
+						alert("This field cannot be empty!!");
+						document.getElementById(m).focus();
+						exit;
+						
+					}
+					if(document.getElementById(m).value!=''&& document.getElementById(i).value=='')
+					{
+						alert("This field cannot be empty!!");
+						document.getElementById(i).focus();
+						exit;
+						
+					}
+					if(document.getElementById(m).value==''&& document.getElementById(i).value=='')
+					{
+						
+						marks=marks;
+						total=total;
+					}
+					else
+					{
+						if(m%2==0)
+						{
+							
+							if(document.getElementById(m-1).value==''&& document.getElementById(i-1).value=='')
+							{
+								alert("You cant fill a second sem with the first sem empty!!");
+								document.getElementById(m-1).focus();
+								exit;
+							}
+						}
+						marks=parseInt(marks)+parseInt(document.getElementById(m).value);
+						total=parseInt(total)+parseInt(document.getElementById(i).value);
+					}
+					m++;
+				}
+				
+				per(marks,total,'ugpgper');
+			}

@@ -1,0 +1,15 @@
+JAVASCRIPT VALIDATIONS NEEDED PAGES
+1.login.php-username 10501A1223 pwd min 6
+2.changep.php-pwd min 6, npwd1=npwd2
+3.forgotpwd.php-username 10501A1223 
+4.adminlogin.php-username admin@tp pwd min 6
+5.adminforgotpwd.php-same as abov
+6.deletes.php- choose department
+7.Uploadpapers.php- name for d files
+8.addcatpp.php-no spaces allowd while giving names
+9.editcatpp.php-no spaces allowd while giving names
+10.uploadfiles.php- name for d files
+11.addcatm.php-no spaces allowd while giving names
+12.editcatm.php-no spaces allowd while giving names
+13.create.php- quiz create, name shud be alphanumeric, sum desc, n time in min
+14.adminforgotpwd.php-sam as abuv

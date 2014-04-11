@@ -1,0 +1,136 @@
+pre,h1,td,th
+{
+    margin:auto;
+    width:70%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+p
+{
+    position: relative;
+    left: 5%;
+    max-width:70%;
+    text-align: justify;
+    color: #333333;
+    background-color: transparent;
+    font-family: Segoe UI,Arial,Verdana,Tahoma,sans-serif;
+    font-size: 16px;
+    line-height: 1.46em;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-indent: 0px;
+
+}
+td.quiz, pre.quiz
+{
+    color:#ffffff;
+
+    font:bold 13px/100% Arial, Helvetica, sans-serif;
+}
+table {
+    border-width: 1px;
+    border-collapse: collapse;
+}
+div
+{
+    color:#c60808;
+    font-size: 11px;
+}
+
+#contentS
+{
+    color:#3f48cc;
+    font-size: 20px;
+}
+body
+{
+    /* background-color:#f0efea;  */
+}
+
+a
+{
+    color:#333333;
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration:none;
+
+}
+a:hover
+{
+    text-decoration:underline;
+}
+a.pwd
+{
+    color:#5a992b;
+    font-size: 12px;
+
+}
+h1
+{
+    color:#212a2f;
+    font-size: 25px;
+    text-align:center;
+}
+th,td
+{
+    color:#e78631;
+    font-size: 16px;
+}
+input.btn,input.txt,textarea.txt,select.txt,select,input
+{   
+    color:#050; 
+    font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+    background-color:#fed; 
+    border:1px solid; 
+    border-color: #696 #363 #363 #696; 
+}
+input.btn {
+    cursor:pointer;
+}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button  {
+    cursor:pointer;
+}
+#content
+{
+    float:right;
+    margin: auto;
+    width:1280px;
+}	
+#contentL{
+    float:right;
+    margin: 20px;
+    width:1000px;
+}
+#contentR{
+    float:right;
+    width:280px;
+}
+#contentLog{
+    float:right;
+    width:325px;
+	text-align:right;
+} 
+#contentReg{
+    float:right;
+    width:250px;
+    color:#df050c;
+} 
+pre.loginv
+{	color:#5a992b;
+  font-size: 16px
+}
+#center1
+{
+    text-align:center;
+}
+a.A
+{
+    color:#df050c;
+}
+
+
+
